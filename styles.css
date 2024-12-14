@@ -1,0 +1,418 @@
+.title {
+    color: green;
+}
+
+nav, header{
+    display: block;
+  
+}
+
+body{
+    line-height: 1;
+    margin: 0;
+    background: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg') no-repeat center center fixed;
+    background-size: cover;
+  height: 100vh;
+  overflow-y: scroll;
+ 
+}
+
+.container{
+    width: 100%;
+    margin: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 6%;
+    float: right;
+    position: static;
+    display: block;
+}
+
+
+
+/*############ Nav ###############*/
+
+nav{
+    width: 100%;
+    margin: 0;
+    
+
+}
+
+nav ul{
+    background-color: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+
+ul.topnav li {
+    list-style: none;
+    float: right;
+    
+}
+
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    color: #a6a6a6;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 14px;
+    min-height: 16px;
+    
+}
+
+ul.topnav li a:hover{
+    background-color: #380e6b;
+    color: #a6a6a6;
+    
+    
+}
+
+ul.topnav li.dropdownIcon{
+    display: none;
+}
+
+/*############  ###############*/
+
+.pre1{
+    display: block;
+ width: 100%;
+font-family: Tajawal;
+color: white;
+font-size: 120px;
+float: right; 
+margin-top: 2px;
+margin-bottom: 0;
+    text-align: right;
+}
+
+.pre2{
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-family:Rakkas ;
+    color: white; 
+    float: right; 
+    font-size: 130px; 
+    margin-top: 20px; 
+    margin-bottom: 2px;
+      
+}
+
+.p1{
+        display: block;
+
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; 
+    float: right; 
+    font-family: Tajawal; 
+    text-align: right;
+    font-size: 30px;
+}
+
+
+a :hover{
+    
+    background-color: #380e6b;
+    color: #a6a6a6;
+}
+
+
+.pre3{
+    display: block;
+
+    font-family: Tajawal; 
+    padding-top: 50px; 
+    color: white ;
+    font-size: 25px; 
+    text-align: justify center; 
+    line-height: 1.8;
+}
+
+.pre4{
+    display: block;
+
+    font-family: Tajawal; 
+    padding-top: 50px; 
+    color: white ;
+    font-size: 25px; 
+    text-align:  right; 
+    line-height: 1.8;
+    word-spacing: 2px;
+    margin-bottom: 0;
+    
+}
+
+a.S_button:hover{
+    background-color: #380e6b;
+    color: white;
+}
+
+.S_button{
+    
+    color: white; 
+    border: 3px solid #9f20cc;
+    text-decoration: none;  
+    padding: 8px ; 
+    text-align: center; 
+    font-size: 20px; 
+    background-color: blueviolet;
+     
+    float: right;
+    box-shadow: 0 0 10px #9f20cc; 
+    
+}
+
+
+.image-container {
+  position: relative; 
+  display: inline-block;
+}
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-30%, -30%);
+  width: 40%; /* حجم الوهج */
+  height: 50%;
+  background: #fbbcff;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1; /* لإظهار الوهج خلف الصورة */
+}
+
+
+
+.Mphone{
+    height: 550px;
+    margin-top: 0;
+    display: block;
+}
+
+
+.pre5{
+    display: block;
+    font-family: Tajawal; 
+    color: white ;
+    font-size: 35px; 
+    text-align:  center; 
+    line-height: 1.2;
+    word-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    
+}
+
+.p_mult{
+    width: 350px;
+    height: 32px;
+    padding: 10px 20px; 
+    border: solid;  
+    border-radius: 50px 50px 50px 50px; 
+    text-align: center; 
+    margin-left: 7%;
+    border-color: #9f20cc;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Tajawal;
+     
+}
+
+.lcok_icon{
+    font-family: "Arial", sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.ph2_container {
+  position: relative; 
+  display: inline-block;
+}
+.ph2_container::before {
+  content: "";
+  position: absolute;
+  top: 60%;
+  right: 30%;
+
+  transform: translate(-30%, -30%);
+  width: 30%; /* حجم الوهج */
+  height: 50%;
+  background: #fbbcff;
+  border-radius: 50%;
+  filter: blur(100px);
+  z-index: -1; /* لإظهار الوهج خلف الصورة */
+}
+
+.lab_container {
+  position: relative; 
+  display: inline-block;
+}
+.lab_container::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 30%;
+
+  transform: translate(-30%, -30%);
+  width: 70%; /* حجم الوهج */
+  height: 30%;
+  background: #d5c8d5;
+  border-radius: 15%;
+  filter: blur(100px);
+  z-index: -1; /* لإظهار الوهج خلف الصورة */
+}
+
+
+.man3_container{
+  position: relative; 
+  display: inline-block;  
+}
+
+
+.man3_container::before{
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 40%;
+  transform: translate(-10%, -30%);
+  width: 40%; /* حجم الوهج */
+  height: 40%;
+  background: #fbbcff;
+  border-radius: 15%;
+  filter: blur(100px);
+  z-index: -1; /* لإظهار الوهج خلف الصورة */
+
+}
+
+
+details{
+    font-family: Tajawal; 
+    margin: 10px 40px 0 0;
+    color: white;
+    border: solid 3px;
+    width:480px;
+    padding:13px;
+    border-radius: 50px;
+    background-color:  #9f20cc;
+    box-shadow: 0 0 10px #9f20cc;
+    line-height: 1.8;
+    
+}
+.Q details{
+   margin: 10px 25% 0 0; 
+}
+
+
+summary {
+    
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: Tajawal; 
+    }
+details[open] summary {
+            color: black;
+    
+        }
+details[open]{
+    background-color: dimgrey;
+    
+}
+
+
+
+/*######## Mobile ##########*/
+
+@media screen and (max-width: 650px){
+    ul.topnav li:not(:nth-child(1)){
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon{
+        display: block;
+        float: left;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    ul.topnav.responsive{
+        position: relative;
+    }
+    
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a {
+        display: block;
+        text-align: right;
+    }
+    
+    
+    .container{
+   
+    padding-right: 12%;
+    
+}
+    .p1{
+        text-align: right;
+    }
+    
+    
+    
+    .pre1{
+
+
+font-size: 60px;
+
+}
+
+.pre2{
+    
+    font-size: 70px; 
+      
+}
+
+.p1{
+
+    font-size: 15px;
+}
+  
+.pre4{
+   
+    font-size: 15px; 
+
+}
+    
+    span{
+   
+    font-size: 11px; 
+
+}
+.Mphone{
+    height: 300px;
+    
+}
+    
+    .S_button{
+    
+    font-size: 15px;  
+       
+}
+}
+
+
+
